@@ -1,23 +1,17 @@
 "use client"
 
 import { useState } from "react"
-import { Menu, X, Globe } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
 import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [language, setLanguage] = useState("en")
-
-  const toggleLanguage = () => {
-    setLanguage(language === "en" ? "ar" : "en")
-  }
 
   const menuItems = [
-    { href: "#home", label: language === "en" ? "Home" : "الرئيسية" },
-    { href: "#services", label: language === "en" ? "Services" : "الخدمات" },
-    { href: "#app", label: language === "en" ? "Mobile App" : "التطبيق المحمول" },
-    { href: "#contact", label: language === "en" ? "Contact" : "اتصل بنا" },
+    { href: "#home", label: "Home" },
+    { href: "#services", label: "Services" },
+    { href: "#app", label: "Mobile App" },
+    { href: "#contact", label: "Contact" },
   ]
 
   return (
@@ -45,25 +39,13 @@ export function Header() {
                 {item.label}
               </a>
             ))}
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={toggleLanguage}
-              className="flex items-center space-x-2 bg-transparent"
-            >
-              <Globe className="h-4 w-4" />
-              <span>{language === "en" ? "العربية" : "English"}</span>
-            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-2">
-            <Button variant="outline" size="sm" onClick={toggleLanguage}>
-              <Globe className="h-4 w-4" />
-            </Button>
-            <Button variant="ghost" size="sm" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </Button>
+            </button>
           </div>
         </div>
 
