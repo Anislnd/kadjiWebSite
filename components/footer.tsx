@@ -9,7 +9,7 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <Image
-              src="/images/kadji-logo.png"
+              src="/images/kadji-white-logo.png"
               alt="Kadji Business Consulting"
               width={150}
               height={50}
