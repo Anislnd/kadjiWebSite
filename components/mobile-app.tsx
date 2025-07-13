@@ -59,7 +59,7 @@ export function MobileApp() {
 
           <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3" asChild>
             <a
-              href="https://archive.org/download/kadji-business-academy/kadji-business-academy.apk"
+              href="https://github.com/Anislnd/kadji-app/releases/download/untagged-5d027832541c3f89fd5b/kadji-business-academy.apk"
               download
             >
               📥 Download the Kadji Academy App
@@ -124,19 +124,73 @@ export function MobileApp() {
                 <Smartphone className="h-24 w-24 mx-auto mb-4 opacity-80" />
                 <h4 className="text-xl font-bold mb-2">Available Now</h4>
                 <p className="mb-4 opacity-90">Download for Android devices</p>
-                <Button 
-                  variant="secondary" 
-                  size="lg" 
-                  className="bg-white text-blue-600 hover:bg-gray-100 w-full sm:w-auto text-sm sm:text-base px-4 sm:px-6" 
-                  asChild
-                >
+                <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
                   <a
-                    href="https://archive.org/download/kadji-business-academy/kadji-business-academy.apk"
+                    href="https://github.com/Anislnd/kadji-app/releases/download/untagged-5d027832541c3f89fd5b/kadji-business-academy.apk"
                     download
                   >
                     📥 Download the Kadji Academy App
                   </a>
                 </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* iOS Web App Section */}
+        <div className="mt-12 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8 shadow-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="text-center md:order-2">
+              <div className="bg-gradient-to-br from-gray-600 to-gray-700 rounded-2xl p-8 text-white">
+                <div className="text-6xl mb-4">📱</div>
+                <h4 className="text-xl font-bold mb-2">Pour les utilisateurs iOS</h4>
+                <p className="mb-4 opacity-90">Accédez à l'application web</p>
+                <Button variant="secondary" size="lg" className="bg-white text-gray-700 hover:bg-gray-100" asChild>
+                  <a href="https://kadji-web-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    🌐 Ouvrir l'App Web
+                  </a>
+                </Button>
+              </div>
+            </div>
+            <div className="md:order-1">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Installation sur iOS (iPhone/iPad)</h3>
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <div className="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
+                    <span className="text-blue-600 font-bold text-sm">1</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Ouvrez Safari</p>
+                    <p className="text-gray-600 text-sm">Accédez à kadji-web-app.vercel.app depuis Safari</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
+                    <span className="text-blue-600 font-bold text-sm">2</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Appuyez sur le bouton Partager</p>
+                    <p className="text-gray-600 text-sm">Icône de partage en bas de l'écran Safari</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
+                    <span className="text-blue-600 font-bold text-sm">3</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Sélectionnez "Ajouter à l'écran d'accueil"</p>
+                    <p className="text-gray-600 text-sm">L'app apparaîtra comme une application native</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
+                    <CheckCircle className="h-4 w-4 text-green-600" />
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Utilisez l'app depuis votre écran d'accueil</p>
+                    <p className="text-gray-600 text-sm">Expérience similaire à une application native</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
