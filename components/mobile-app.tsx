@@ -124,7 +124,12 @@ export function MobileApp() {
                 <Smartphone className="h-24 w-24 mx-auto mb-4 opacity-80" />
                 <h4 className="text-xl font-bold mb-2">Available Now</h4>
                 <p className="mb-4 opacity-90">Download for Android devices</p>
-                <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
+                <Button 
+                  variant="secondary" 
+                  size="lg" 
+                  className="bg-white text-blue-600 hover:bg-gray-100 w-full sm:w-auto text-sm sm:text-base px-4 sm:px-6" 
+                  asChild
+                >
                   <a
                     href="https://archive.org/download/kadji-business-academy/kadji-business-academy.apk"
                     download
