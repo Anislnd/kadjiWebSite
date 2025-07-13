@@ -124,14 +124,16 @@ export function MobileApp() {
                 <Smartphone className="h-24 w-24 mx-auto mb-4 opacity-80" />
                 <h4 className="text-xl font-bold mb-2">Available Now</h4>
                 <p className="mb-4 opacity-90">Download for Android devices</p>
-                <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
-                  <a
-                    href="https://github.com/Anislnd/kadji-app/releases/download/untagged-5d027832541c3f89fd5b/kadji-business-academy.apk"
-                    download
-                  >
-                    📥 Download the Kadji Academy App
-                  </a>
-                </Button>
+                <div className="flex justify-center">
+                  <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
+                    <a
+                      href="https://github.com/Anislnd/kadji-app/releases/download/untagged-5d027832541c3f89fd5b/kadji-business-academy.apk"
+                      download
+                    >
+                      📥 Download the Kadji Academy App
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -143,25 +145,25 @@ export function MobileApp() {
             <div className="text-center md:order-2">
               <div className="bg-gradient-to-br from-gray-600 to-gray-700 rounded-2xl p-8 text-white">
                 <div className="text-6xl mb-4">📱</div>
-                <h4 className="text-xl font-bold mb-2">Pour les utilisateurs iOS</h4>
-                <p className="mb-4 opacity-90">Accédez à l'application web</p>
+                <h4 className="text-xl font-bold mb-2">For iOS Users</h4>
+                <p className="mb-4 opacity-90">Access the web app</p>
                 <Button variant="secondary" size="lg" className="bg-white text-gray-700 hover:bg-gray-100" asChild>
                   <a href="https://kadji-web-app.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    🌐 Ouvrir l'App Web
+                    🌐 Open Web App
                   </a>
                 </Button>
               </div>
             </div>
             <div className="md:order-1">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Installation sur iOS (iPhone/iPad)</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">iOS Installation (iPhone/iPad)</h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
                     <span className="text-blue-600 font-bold text-sm">1</span>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Ouvrez Safari</p>
-                    <p className="text-gray-600 text-sm">Accédez à kadji-web-app.vercel.app depuis Safari</p>
+                    <p className="font-medium text-gray-900">Open Safari</p>
+                    <p className="text-gray-600 text-sm">Go to kadji-web-app.vercel.app from Safari</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -169,8 +171,8 @@ export function MobileApp() {
                     <span className="text-blue-600 font-bold text-sm">2</span>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Appuyez sur le bouton Partager</p>
-                    <p className="text-gray-600 text-sm">Icône de partage en bas de l'écran Safari</p>
+                    <p className="font-medium text-gray-900">Tap the Share button</p>
+                    <p className="text-gray-600 text-sm">Share icon at the bottom of Safari screen</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -178,8 +180,8 @@ export function MobileApp() {
                     <span className="text-blue-600 font-bold text-sm">3</span>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Sélectionnez "Ajouter à l'écran d'accueil"</p>
-                    <p className="text-gray-600 text-sm">L'app apparaîtra comme une application native</p>
+                    <p className="font-medium text-gray-900">Select "Add to Home Screen"</p>
+                    <p className="text-gray-600 text-sm">The app will appear as a native application</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -187,8 +189,8 @@ export function MobileApp() {
                     <CheckCircle className="h-4 w-4 text-green-600" />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Utilisez l'app depuis votre écran d'accueil</p>
-                    <p className="text-gray-600 text-sm">Expérience similaire à une application native</p>
+                    <p className="font-medium text-gray-900">Use the app from your home screen</p>
+                    <p className="text-gray-600 text-sm">Experience similar to a native application</p>
                   </div>
                 </div>
               </div>
