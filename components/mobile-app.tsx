@@ -148,7 +148,7 @@ export function MobileApp() {
                 <h4 className="text-xl font-bold mb-2">For iOS Users</h4>
                 <p className="mb-4 opacity-90">Access the web app</p>
                 <Button variant="secondary" size="lg" className="bg-white text-gray-700 hover:bg-gray-100" asChild>
-                  <a href="https://kadji-web-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://kadji-business-web-app.vercel.app/" target="_blank" rel="noopener noreferrer">
                     🌐 Open Web App
                   </a>
                 </Button>
