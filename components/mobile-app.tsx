@@ -59,7 +59,7 @@ export function MobileApp() {
 
           <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3" asChild>
             <a
-              href="https://archive.org/download/kadji-business-academy_202507/kadji-business-academy.apk"
+              href="https://archive.org/download/kadji-business-academy_20250730/kadji-business-academy.apk"
               download
             >
               📥 Download the Kadji Academy App
@@ -127,7 +127,7 @@ export function MobileApp() {
                 <div className="flex justify-center">
                   <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
                     <a
-                      href="https://archive.org/download/kadji-business-academy_202507/kadji-business-academy.apk"
+                      href="https://archive.org/download/kadji-business-academy_20250730/kadji-business-academy.apk"
                       download
                     >
                       📥 Download the Kadji Academy App

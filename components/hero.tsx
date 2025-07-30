@@ -24,7 +24,7 @@ export function Hero() {
             </Button>
             <Button size="lg" variant="outline" asChild>
               <a
-                href="https://archive.org/download/kadji-business-academy_202507/kadji-business-academy.apk"
+                href="https://archive.org/download/kadji-business-academy_20250730/kadji-business-academy.apk"
                 download
               >
                 📥 Download the Kadji Academy App
